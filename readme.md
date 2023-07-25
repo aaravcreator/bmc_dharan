@@ -14,6 +14,10 @@ This project demonstrates static to dynamic conversion of templates  and deal wi
 
 
 ## Installation (REQUIRED )
+Go to repo folder 
+```bash
+cd bmc_dharan
+```
 Firstly create new Python virtual environment using
 ```bash
 python -m venv myenv
