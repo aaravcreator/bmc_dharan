@@ -11,7 +11,8 @@ def display_name(request,name):
 
 def display_page(request):
     context ={
-        'title':"Welcome to my website",
+        'title':"Welcome to BMC DHARAN",
+        'sub_title':"One of the leading IT College in Dharan",
         'mydata': [
             "football",
             "volleyball",
