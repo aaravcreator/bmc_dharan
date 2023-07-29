@@ -34,10 +34,17 @@ class TeamMember(models.Model):
     instagram_link = models.URLField(blank=True)
     twitter_link = models.URLField(blank=True)
     linkedin_link = models.URLField(blank=True)
-
+    
     def __str__(self):
         return self.name
 
 
 
-    
+class Message(models.Model):
+    name = models.CharField(max_length=255,blank=True,null=True)
+    email = models.EmailField(blank=False, null=False )
+    message = models.TextField()
+    subject = models.CharField(max_length=255,blank=True,null=True)
+
+    def __str__(self):
+        return self.name
